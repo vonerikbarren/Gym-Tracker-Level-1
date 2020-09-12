@@ -53,6 +53,13 @@
                 <input type="text" id="personName" autofocus>
                 <button type="button" onclick="addData();">Append Information</button>
 
+                <form>
+                  <label for="fname">First name:</label><br>
+                  <input type="text" id="fname" name="fname"><br>
+                  <label for="lname">Last name:</label><br>
+                  <input type="text" id="lname" name="lname">
+                </form>
+
                 <br />
                 <br />
 
@@ -91,6 +98,69 @@
             </div>
 
             <div class="col-md-2">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+
+                    <form>
+                      <fieldset>
+                        <legend>Personalia:</legend>
+                        <label for="fname">Workout:</label><br>
+                        <input type="text" id="workout" name="workout" value="Workout"><br>
+                        <label for="lname">Weight:</label><br>
+                        <input type="text" id="weight" name="weight" value="Weight"><br>
+                        <label for="lname">Reps:</label><br>
+                        <input type="text" id="reps" name="reps" value="Reps"><br><br>
+
+                        <button onclick="addWorkoutData"> Submit </button>
+                      </fieldset>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+
+              <br />
+
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
 
             </div>
           </div>
